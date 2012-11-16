@@ -1,0 +1,128 @@
+{
+  "bundles": [
+    {
+      "description": "Native Client SDK Tools, revision 157127",
+      "stability": "stable",
+      "recommended": "yes",
+      "version": 1,
+      "archives": [
+        {
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/trunk.157127/sdk_tools.tgz",
+          "checksum": {
+            "sha1": "8ef183f3e00a0db99b12ffc8cdec009744e21aba"
+          },
+          "host_os": "mac",
+          "size": 25957
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/trunk.157127/sdk_tools.tgz",
+          "checksum": {
+            "sha1": "8ef183f3e00a0db99b12ffc8cdec009744e21aba"
+          },
+          "host_os": "linux",
+          "size": 25957
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/trunk.157127/sdk_tools.tgz",
+          "checksum": {
+            "sha1": "8ef183f3e00a0db99b12ffc8cdec009744e21aba"
+          },
+          "host_os": "win",
+          "size": 25957
+        }
+      ],
+      "revision": 157127,
+      "name": "sdk_tools"
+    },
+    {
+      "repath": "pepper_20",
+      "name": "pepper_20",
+      "description": "Chrome 20 bundle, revision 144678",
+      "stability": "stable",
+      "recommended": "yes",
+      "version": 20,
+      "archives": [
+        {
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/20.0.1132.47/naclsdk_mac.bz2",
+          "checksum": {
+            "sha1": "cd9d62ef0427c5bdaf7ae0ed759458f4cc190de8"
+          },
+          "host_os": "mac",
+          "size": 123049293
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/20.0.1132.47/naclsdk_linux.bz2",
+          "checksum": {
+            "sha1": "628e5c0a9f99b8b5e87d5a44522f066bb8a6db39"
+          },
+          "host_os": "linux",
+          "size": 126995684
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/20.0.1132.47/naclsdk_win.bz2",
+          "checksum": {
+            "sha1": "e4ac501674e29ed57da4809144562aa021ed9b57"
+          },
+          "host_os": "win",
+          "size": 119506431
+        }
+      ],
+      "revision": 144678
+    },
+    {
+      "repath": "pepper_21",
+      "name": "pepper_21",
+      "description": "Chrome 21 bundle, revision 154005",
+      "stability": "stable",
+      "recommended": "yes",
+      "version": 21,
+      "archives": [
+        {
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/21.0.1180.89/naclsdk_mac.bz2",
+          "checksum": {
+            "sha1": "f4155a74411f20f0d37c763127f05fe235c78559"
+          },
+          "host_os": "mac",
+          "size": 130128327
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/21.0.1180.89/naclsdk_linux.bz2",
+          "checksum": {
+            "sha1": "f3398a9d9ac6f7577b7a46442b83bf8c53065be2"
+          },
+          "host_os": "linux",
+          "size": 134644094
+        },
+        {
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/21.0.1180.89/naclsdk_win.bz2",
+          "checksum": {
+            "sha1": "b572d667fced68170ab532d744273e758f1ddea9"
+          },
+          "host_os": "win",
+          "size": 126580627
+        }
+      ],
+      "revision": 154005
+    },
+    {
+      "repath": "vs_addin",
+      "name": "vs_addin",
+      "description": "Visual Studio Add-In for building and debugging NaCl applications",
+      "stability": "dev",
+      "recommended": "no",
+      "version": 0,
+      "archives": [
+        {
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/sdk/1419/vs_addin.tgz",
+          "checksum": {
+            "sha1": "95542982245c7ae42d267930079f48247c2ea916"
+          },
+          "host_os": "win",
+          "size": 902700
+        }
+      ],
+      "revision": 1419
+    }
+  ],
+  "manifest_version": 2
+}

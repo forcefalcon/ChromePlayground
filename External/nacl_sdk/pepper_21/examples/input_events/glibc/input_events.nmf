@@ -1,0 +1,68 @@
+{
+  "files": {
+    "libpthread.so.ef989bae": {
+      "x86-64": {
+        "url": "lib64/libpthread.so.ef989bae"
+      },
+      "x86-32": {
+        "url": "lib32/libpthread.so.ef989bae"
+      }
+    },
+    "libc.so.ef989bae": {
+      "x86-64": {
+        "url": "lib64/libc.so.ef989bae"
+      },
+      "x86-32": {
+        "url": "lib32/libc.so.ef989bae"
+      }
+    },
+    "main.nexe": {
+      "x86-64": {
+        "url": "input_events_x86_64.nexe"
+      },
+      "x86-32": {
+        "url": "input_events_x86_32.nexe"
+      }
+    },
+    "libstdc++.so.6": {
+      "x86-64": {
+        "url": "lib64/libstdc++.so.6"
+      },
+      "x86-32": {
+        "url": "lib32/libstdc++.so.6"
+      }
+    },
+    "libppapi_cpp.so": {
+      "x86-64": {
+        "url": "lib64/libppapi_cpp.so"
+      },
+      "x86-32": {
+        "url": "lib32/libppapi_cpp.so"
+      }
+    },
+    "libm.so.ef989bae": {
+      "x86-64": {
+        "url": "lib64/libm.so.ef989bae"
+      },
+      "x86-32": {
+        "url": "lib32/libm.so.ef989bae"
+      }
+    },
+    "libgcc_s.so.1": {
+      "x86-64": {
+        "url": "lib64/libgcc_s.so.1"
+      },
+      "x86-32": {
+        "url": "lib32/libgcc_s.so.1"
+      }
+    }
+  },
+  "program": {
+    "x86-64": {
+      "url": "lib64/runnable-ld.so"
+    },
+    "x86-32": {
+      "url": "lib32/runnable-ld.so"
+    }
+  }
+}

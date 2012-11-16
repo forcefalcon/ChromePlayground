@@ -1,0 +1,44 @@
+{
+  "files": {
+    "libgcc_s.so.1": {
+      "x86-64": {
+        "url": "lib64/libgcc_s.so.1"
+      },
+      "x86-32": {
+        "url": "lib32/libgcc_s.so.1"
+      }
+    },
+    "libc.so.ef989bae": {
+      "x86-64": {
+        "url": "lib64/libc.so.ef989bae"
+      },
+      "x86-32": {
+        "url": "lib32/libc.so.ef989bae"
+      }
+    },
+    "main.nexe": {
+      "x86-64": {
+        "url": "hello_world_x86_64.nexe"
+      },
+      "x86-32": {
+        "url": "hello_world_x86_32.nexe"
+      }
+    },
+    "libpthread.so.ef989bae": {
+      "x86-64": {
+        "url": "lib64/libpthread.so.ef989bae"
+      },
+      "x86-32": {
+        "url": "lib32/libpthread.so.ef989bae"
+      }
+    }
+  },
+  "program": {
+    "x86-64": {
+      "url": "lib64/runnable-ld.so"
+    },
+    "x86-32": {
+      "url": "lib32/runnable-ld.so"
+    }
+  }
+}
